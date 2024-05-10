@@ -14,6 +14,9 @@ body{
     font-size: 60px;
     background-color: white;
     padding: 10px;
+    border-radius: 1%;
+    border: none;
+    box-shadow: 0 9px #4e4e4e;
 }
 
 #clear{
@@ -44,4 +47,15 @@ text-align: center;
 font-size: 30px;
 border-radius: 20%;
 border: none;
+background-color: white;
+box-shadow: 0 9px #4e4e4e;
+}
+button:hover{
+    background-color: #dadada;
+}
+
+button:active{
+    background-color: #dadada;
+    box-shadow: 0 5px #4e4e4e;
+    transform: translateY(4px);
 }
