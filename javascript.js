@@ -19,4 +19,11 @@ function divide(a, b) {
 };
 divide(20, 5);
 
+// --constants-- all my button functionality
+const total = document.querySelector("#totalDisplay");
+const one = document.querySelector("#one");
+one.addEventListener("click", ()=> {
+total.textContent = 1;
+return 1;
+});
 

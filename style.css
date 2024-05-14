@@ -14,17 +14,9 @@ body{
     font-size: 60px;
     background-color: white;
     padding: 10px;
-    border-radius: 1%;
+    border-radius: 1.5%;
     border: none;
-    box-shadow: 0 9px #4e4e4e;
-}
-
-#clear{
-    width: 100px;
-    height: 100px;
-}
-#decimal{
-    font-size: 60px;
+    box-shadow: -6px 7px #4e4e4e;
 }
 
 .calculator{
@@ -36,8 +28,18 @@ body{
     height: 600px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
     text-align: center;
     gap: 5px;
+    box-shadow: -6px 7px #4e4e4e;
+}
+
+#clear{
+    width: 100px;
+    height: 100px;
+}
+#decimal{
+    font-size: 60px;
 }
 
 button{
@@ -48,7 +50,7 @@ font-size: 30px;
 border-radius: 20%;
 border: none;
 background-color: white;
-box-shadow: 0 9px #4e4e4e;
+box-shadow: -6px 7px #4e4e4e;
 }
 button:hover{
     background-color: #dadada;
@@ -56,6 +58,6 @@ button:hover{
 
 button:active{
     background-color: #dadada;
-    box-shadow: 0 5px #4e4e4e;
+    box-shadow: -4px 5px #4e4e4e;
     transform: translateY(4px);
 }
