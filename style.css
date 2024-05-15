@@ -9,7 +9,7 @@ body{
     justify-content: right;
     align-items: center;
     width: 400px;
-    height: 100px;
+    height: 75px;
     text-align: center;
     font-size: 60px;
     background-color: white;
@@ -17,6 +17,13 @@ body{
     border-radius: 1.5%;
     border: none;
     box-shadow: -6px 7px #4e4e4e;
+    /* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 400 to 700 */
+  font-family: "Pixelify Sans", sans-serif;
+  font-optical-sizing: auto;
+  /* font-weight: 400;
+  font-style: normal; */
+
 }
 
 .calculator{
@@ -24,8 +31,8 @@ body{
     border: 10px grey solid;
     background-color: gray;
     border-radius: 5px;
-    width: 420px;
-    height: 600px;
+    width: 320px;
+    height: 550px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -35,16 +42,16 @@ body{
 }
 
 #clear{
-    width: 100px;
-    height: 100px;
+    width: 75px;
+    height: 75px;
 }
 #decimal{
     font-size: 60px;
 }
 
 button{
-width: 100px;
-height: 100px;
+width: 75px;
+height: 75px;
 text-align: center;
 font-size: 30px;
 border-radius: 20%;
@@ -61,3 +68,31 @@ button:active{
     box-shadow: -4px 5px #4e4e4e;
     transform: translateY(4px);
 }
+
+#fun {
+width: 150px;
+height: 75px;
+font-size: 1px;
+text-align: center;
+font-size: 30px;
+border-radius: 3%;
+border: none;
+background-color: white;
+box-shadow: -6px 7px #4e4e4e;
+}
+
+#total{
+    width: 150px;
+    height: 75px;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 3%;
+    border: none;
+    background-color: #5ac45a;
+    box-shadow: -6px 7px #4e4e4e;
+    }
+
+#clear {
+        background-color: red;
+        color: white;
+    }
