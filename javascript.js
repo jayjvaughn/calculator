@@ -8,6 +8,10 @@ function operate(){
 totalDisplay.textContent = eval(totalDisplay.textContent);
 };
 
+function backSpace(){
+totalDisplay.textContent = totalDisplay.textContent.slice(0, -1);
+};
+
 const clear = document.querySelector("#clear");
 clear.addEventListener("click", () => {
     totalDisplay.textContent = "";
