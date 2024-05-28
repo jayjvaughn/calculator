@@ -13,24 +13,23 @@
     <div class="calculator">
 <display id="totalDisplay"></display>
 <button id="fun">Dont Push!</button>
-<button id="total">=</button>
+<button onclick="operate()"id="total">=</button>
 <button id="clear">C</button>
-<button id="decimal">.</button>
-<button onclick="displayThisNumber(1)">1</button>
-<button id="addition">+</button>
-<button id="two">2</button>
-<button id="three">3</button>
-<button id="four">4</button>
-<button id="minus">-</button>
-<button id="five">5</button>
-<button id="six">6</button>
-<button id="seven">7</button>
-<button id="times">x</button>
-<button id="eight">8</button>
-<button id="nine">9</button>
-<button id="zero">0</button>
-<button id="division">%</button>
-<!-- <button id=""></button> -->
+<button onclick="displayThis('.')">.</button>
+<button onclick="displayThis('1')">1</button>
+<button onclick="displayThis('+')"id="addition">+</button>
+<button onclick="displayThis('2')">2</button>
+<button onclick="displayThis('3')">3</button>
+<button onclick="displayThis('4')">4</button>
+<button onclick="displayThis('-')" id="minus">-</button>
+<button onclick="displayThis('5')">5</button>
+<button onclick="displayThis('6')">6</button>
+<button onclick="displayThis('7')">7</button>
+<button onclick="displayThis('*')"id="times">x</button>
+<button onclick="displayThis('8')">8</button>
+<button onclick="displayThis('9')">9</button>
+<button onclick="displayThis('0')">0</button>
+<button onclick="displayThis('%')">%</button>
 </div>
 
 <script src="javascript.js"></script>
